@@ -1,0 +1,284 @@
+.road {
+  width: 1000px;
+  height: 100px;
+  background: linear-gradient(to right, #0f3d63 40%, #dbd9d9 25%);
+  position: absolute;
+  z-index: 5;
+  left: 319px;
+}
+
+.center-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 5px dashed white;
+  transform: translateY(-50%);
+}
+
+
+.container {
+  position: relative;
+}
+
+.path1 {
+  width: 221px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(180deg) rotate(45deg);
+  z-index: -10;
+  position: relative;
+  top: -84px;
+  left: 386px;
+
+  .center-line {
+    width: 94%;
+  }
+
+  .path1-sign {
+    transform: rotateY(180deg) rotate(180deg);
+    position: relative;
+    top: -37px;
+    left: 58px;
+    font-weight: bold;
+    width: 110px;
+    font-size: 12px;
+  }
+
+  .path1a {
+    width: 147px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(135deg);
+    left: 186px;
+    top: -46px;
+
+    .node1 {
+      width: 133px;
+      height: 40px;
+      transform: rotateY(166deg) rotate(360deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+
+.path2 {
+  width: 140px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(180deg) rotate(45deg);
+  z-index: -10;
+  position: relative;
+  top: -90px;
+  left: 512px;
+
+  .center-line {
+    width: 94%;
+  }
+
+  .path2a {
+    width: 135px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(135deg);
+    left: 107px;
+    top: -42px;
+
+    .node2 {
+      width: 131px;
+      height: 40px;
+      transform: rotateY(166deg) rotate(360deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+
+.path3 {
+  width: 214px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(360deg) rotate(45deg);
+  z-index: -10;
+  position: relative;
+  top: 62px;
+  left: 387px;
+
+
+  .center-line {
+    width: 97%;
+  }
+
+  .path3a {
+    width: 270px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(135deg);
+    left: 161px;
+    top: -90px;
+
+    .node3 {
+      width: 133px;
+      height: 40px;
+      transform: rotateY(0deg) rotate(180deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+.path4 {
+  width: 277px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(360deg) rotate(70deg);
+  z-index: -10;
+  position: relative;
+  top: 83px;
+  left: 483px;
+
+
+  .center-line {
+    width: 97%;
+  }
+
+  .path4a {
+    width: 295px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(110deg);
+    left: 163px;
+    top: -126px;
+
+    .node4 {
+      width: 133px;
+      height: 40px;
+      transform: rotateY(0deg) rotate(180deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+.path5 {
+  width: 206px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(180deg) rotate(45deg);
+  z-index: -10;
+  position: relative;
+  top: -239px;
+  left: 715px;
+
+  .center-line {
+    width: 94%;
+  }
+
+  .path5a {
+    width: 138px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(135deg);
+    left: 173px;
+    top: -44px;
+
+    .node5 {
+      width: 131px;
+      height: 40px;
+      transform: rotateY(166deg) rotate(360deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+.path6 {
+  width: 219px;
+  background: #dbd9d9;
+  height: 40px;
+  transform: rotateX(360deg) rotate(45deg);
+  z-index: -10;
+  position: relative;
+  top: -56px;
+  left: 703px;
+
+  .center-line {
+    width: 97%;
+  }
+
+  .path6a {
+    width: 141px;
+    background: #dbd9d9;
+    height: 40px;
+    position: relative;
+    z-index: -10;
+    transform: rotateX(0deg) rotate(135deg);
+    left: 185px;
+    top: -45px;
+
+    .node6 {
+      width: 133px;
+      height: 40px;
+      transform: rotateY(0deg) rotate(180deg);
+      display: flex;
+      flex-direction: column;
+      background: #dbd9d9;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -2px;
+      font-weight: bold;
+    }
+  }
+}
+
+.sign1 {
+  left: 574px;
+  position: relative;
+  top: -183px;
+  font-weight: bold;
+  font-size: 14px;
+}

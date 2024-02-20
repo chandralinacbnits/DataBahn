@@ -1,0 +1,139 @@
+
+.wrapper {
+    overflow: hidden;
+  }
+
+  .app {
+    height: 100vh;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+  
+  .inner-wrapper {
+    padding-left: 49px;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  
+  .horizontal-tree {
+    position: relative;
+    left: -10px;
+    z-index: 20
+  }
+  
+  .horizontal-tree-right {
+    position: relative;
+    z-index: 40;
+    right: -865px;
+    top: 53px
+  }
+  
+  .outer-circle {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-color: #629383f2;
+    border: 40px solid;
+    border-color: rgb(234, 172, 85);
+    position: absolute;
+    left: 396px;
+    z-index: 20;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .h-100 {
+    height: 100vh;
+  }
+  
+  .section-text.text1 {
+    position: relative;
+    width: 30px;
+    left: 44px;
+    top: 36px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .section-text.text2 {
+    position: relative;
+    left: 156px;
+    width: 50px;
+    top: -11px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .section-text.text3 {
+    color: white;
+    left: 44px;
+    position: relative;
+    width: 50px;
+    top: 60px;
+    font-size: 12px;
+  }
+  
+  .section-text.text4 {
+    color: white;
+    position: relative;
+    left: 161px;
+    top: 28px;
+    font-size: 12px;
+  }
+  
+  .center-circle {
+    position: relative;
+      border-radius: 50%;
+      background-color: white;
+      color: black;
+      top: -84px;
+      left: 91px;  
+      height: 70px;
+      width: 70px;
+      font-size: 10px;
+  }
+  
+  #container {
+    position: relative;
+  }
+  #block1, #block2 {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    position: absolute;
+    cursor: pointer;
+  }
+  #line {
+    stroke: #e74c3c;
+    stroke-width: 2;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  
